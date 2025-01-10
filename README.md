@@ -1,2 +1,3 @@
 # LearnTDD
 Basic TDD leaning 
+This project implements a String Calculator using Test-Driven Development (TDD) principles in React. The app allows users to input comma- or newline-separated numbers and calculate their sum. It also supports custom delimiters and error handling for negative numbers. The project is structured with unit tests to ensure correct functionality, including validation of input and expected output behavior. It is built using React 18 and tested with React Testing Library.
