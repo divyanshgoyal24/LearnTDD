@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Enter numbers label', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  // The text should match exactly with the label in the App
+  const linkElement = screen.getByText(/Enter numbers \(comma or newline separated\):/i);
   expect(linkElement).toBeInTheDocument();
 });
