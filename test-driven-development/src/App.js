@@ -41,7 +41,7 @@ function App() {
             value={input}
             onChange={handleInputChange}
             rows="5"
-            cols="50"
+            cols="30"
             placeholder="Enter numbers here"
           />
         </div>
